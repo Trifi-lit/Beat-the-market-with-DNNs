@@ -1,10 +1,24 @@
-# Beat-the-market-with-DNNs
-Forecast XRP (Ripple Token) Price Trends Using Deep Neural Networks and Evaluate Performance Against Historical Data
+# Ripple (XRP) Price Prediction with Deep Neural Networks
 
-Through the application of advanced Deep Neural Networks (DNNs), I have undertaken the task of predicting future price movements of XRP, commonly known as the Ripple token. This endeavor involves utilizing the closing prices of various cryptocurrencies to forecast whether the closing price of the target cryptocurrency will rise or fall on the subsequent trading day. 
+Forecast and analyze XRP (Ripple Token) price trends using advanced Deep Neural Networks (DNNs) and evaluate model performance against historical data.
 
-The highest accuracy is concistently achieved for XRP price as the target variable. There is some variance in accuracy between different runs and different intervals but it usually is between 56-58% on the testing set. Trading with the model can give returns that range between x2 and x3 every year. The model beats the market(XRP price) in every large enough testing interval.
+## Overview
 
-Trying the same model in hourly intervals barely achieves 50% accuracy. The randomness of the price movements increases as interval shorten.
+In this project, I leverage Deep Neural Networks to predict future price movements of XRP, focusing on the closing prices of various cryptocurrencies. The primary objective is to forecast whether the closing price of XRP will rise or fall in the subsequent trading day.
 
-To install all used packages run: pip install -r requirements.txt
+## Key Findings
+
+- **XRP is a good choice:** The model consistently achieves the highest accuracy when predicting XRP prices as the target variable.
+  
+- **Accuracy Range:** Although there is some variance in accuracy across different runs and intervals, it typically falls between 56-58% on the testing set.
+
+- **Profitable Trading:** Trading with the model can yield returns ranging between x2 and x3 annually, outperforming the market (XRP price) consistently in sufficiently large testing intervals.
+
+- **Market Efficiency in shorter timeframes:** Testing the model in hourly intervals barely achieves 50% accuracy, indicating increased randomness in price movements as intervals shorten.
+
+## Installation
+
+To install all the required packages, run the following command:
+
+```bash
+pip install -r requirements.txt
