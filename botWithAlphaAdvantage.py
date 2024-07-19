@@ -16,7 +16,7 @@ from alpha_vantage.timeseries import TimeSeries
 
 def get_variables_data(symbols):
     # Replace 'YOUR_API_KEY' with your Alpha Vantage API key 
-    api_key = 'NGB6X92ZTFQYD6KW'
+    api_key = 'YOUR_API_KEY'
     ts = TimeSeries(key=api_key, output_format='pandas')
     
     data = {}
